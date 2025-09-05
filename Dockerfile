@@ -1,11 +1,12 @@
-# Use official nginx image
-FROM nginx:alpine
+FROM python:3.9
 
-# Copy your HTML file(s) into nginx's default directory
-COPY ./index.html /usr/share/nginx/html/
+WORKDIR /app
 
-# Expose port 80 inside container
-EXPOSE 80
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+COPY . .
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
