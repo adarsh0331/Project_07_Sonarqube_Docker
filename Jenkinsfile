@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         SONARQUBE = credentials('sonar-token')
-        DOCKER_CREDENTIALS = credentials('docker-hub')
+       // DOCKER_CREDENTIALS = credentials('docker-hub')
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/my-devops-project.git'
+                git branch: 'main', url: 'https://github.com/adarsh0331/project10.git'
             }
         }
 
