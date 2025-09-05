@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-              git branch: 'main', url: 'https://github.com/devopstraininghub/mindcircuit14.git'  
+              git branch: 'main', url: 'https://github.com/adarsh0331/project10.git'  
             }
         }
         stage('Compile stage maven') {
@@ -31,7 +31,7 @@ pipeline {
        stage('docker build') {
             steps {
 
-                    sh 'docker build -t devopshubg333/mc14:v1 .'
+                    sh 'docker build -t devops/mc14:v1 .'
 
             }
         }
