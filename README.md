@@ -52,7 +52,7 @@ Basic familiarity with terminal commands (I’ll include exact commands).
 
 Default credentials: admin / admin (log in and change password).
 
-### Create a Sonar token:
+### 3. Create a Sonar token:
 
 ### In Sonar UI: top-right → My Account → Security → Generate Token → name it e.g. jenkins-token. Copy token.
 
