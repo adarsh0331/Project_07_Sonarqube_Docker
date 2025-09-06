@@ -1,8 +1,0 @@
-sonar.projectKey=my-devops-app
-sonar.projectName=My DevOps App
-sonar.projectVersion=1.0
-sonar.sources=.
-sonar.language=py
-sonar.sourceEncoding=UTF-8
-sonar.host.url=http://13.126.222.186:9000/
-sonar.login=squ_25486dea22a3bc4f692446711a5180274b5e0a1c
