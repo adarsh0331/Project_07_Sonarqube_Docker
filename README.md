@@ -16,11 +16,15 @@ This project demonstrates a complete **DevOps CI/CD pipeline** using:
 ## 📌 Project Structure
 
 project10/
-│── app.py # Flask application
-│── requirements.txt # Python dependencies
-│── Dockerfile # Docker image instructions
-│── Jenkinsfile # Jenkins pipeline configuration
-│── README.md # Project documentation
+│── app.py     # Flask application
+
+│── requirements.txt  # Python dependencies
+
+│── Dockerfile   # Docker image instructions
+
+│── Jenkinsfile  # Jenkins pipeline configuration
+
+│── README.md    # Project documentation
 
 
 
