@@ -15,7 +15,8 @@ This project demonstrates a complete **DevOps CI/CD pipeline** using:
 
 ## 📌 Project Structure
 
-project10/
+project10
+
 │── app.py     # Flask application
 
 │── requirements.txt  # Python dependencies
